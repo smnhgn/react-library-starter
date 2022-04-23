@@ -1,26 +1,7 @@
 {
-  "name": "react-library-starter",
-  "version": "0.0.1",
-  "description": "A starter template for react library development",
   "workspaces": [
     "packages/*"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/smnhgn/react-library-starter.git"
-  },
-  "keywords": [
-    "react",
-    "library",
-    "starter",
-    "typescript"
-  ],
-  "author": "Simon Haugen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/smnhgn/react-library-starter/issues"
-  },
-  "homepage": "https://github.com/smnhgn/react-library-starter#readme",
   "scripts": {
     "dev": "concurrently -n lib,app 'npm:dev -w lib' 'npm:dev -w app'",
     "build": "npm run build -w lib"
